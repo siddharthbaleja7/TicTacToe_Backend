@@ -1,8 +1,8 @@
 package com.siddharth.tictactoe.Exception;
 
 
-public class InvalidGame extends RuntimeException{
-    public InvalidGame(String message) {
+public class InvalidGameException extends RuntimeException{
+    public InvalidGameException(String message) {
         super(message);
     }
 }

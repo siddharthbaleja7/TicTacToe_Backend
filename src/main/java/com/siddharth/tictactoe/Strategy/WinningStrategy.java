@@ -5,8 +5,7 @@ import com.siddharth.tictactoe.models.Move;
 
 import java.util.HashMap;
 
-public class Winning {
-
+public class WinningStrategy {
     static HashMap<Integer, HashMap<Character, Integer>> rowMaps = new HashMap<>();
     static HashMap<Integer, HashMap<Character, Integer>> columnMaps = new HashMap<>();
     static HashMap<Character, Integer> rightDiagonalMap = new HashMap<>();
@@ -69,5 +68,8 @@ public class Winning {
         }
 
         return false;
+
     }
+
+
 }

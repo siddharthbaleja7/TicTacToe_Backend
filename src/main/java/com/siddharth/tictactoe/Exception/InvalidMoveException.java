@@ -1,8 +1,8 @@
 package com.siddharth.tictactoe.Exception;
 
 
-public class InvalidMove extends Exception{
-    public InvalidMove(String message) {
+public class InvalidMoveException extends Exception{
+    public InvalidMoveException(String message) {
         super(message);
     }
 
